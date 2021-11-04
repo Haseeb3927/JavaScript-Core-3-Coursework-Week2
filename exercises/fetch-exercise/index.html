@@ -15,11 +15,22 @@
         margin: 0 50px;
         padding: 30px;
       }
+      #greetingBtn {
+        margin: 10px;
+        font-size: medium;
+        padding: 5px;
+      }
+      #greetingBtn:hover {
+        cursor: pointer;
+        transform: scale(1.03);
+        transition: all 1s ease;
+      }
     </style>
   </head>
 
   <body>
     <h1>A greeting in a random language...</h1>
+    <button id="greetingBtn">Click here !</button>
     <p id="greeting-text"></p>
 
     <script src="exercise.js"></script>
